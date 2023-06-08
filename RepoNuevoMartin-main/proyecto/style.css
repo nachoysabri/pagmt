@@ -1,0 +1,403 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .centerAll {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .navBar {
+        display: flex;
+        justify-content: start;
+    }
+
+    .Nav__img {
+        width: 10rem;
+        height: 10rem;
+        padding-left: 10rem;
+    }
+
+
+
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexColumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* HEADER */
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        background-image: url('https://i.ibb.co/4PvPVsm/photo-1605446486353-ec4bf48d4ca2-ixlib-rb-4-0.jpg');
+        background-size: cover;
+        background-position: center 35%;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+    }
+
+    .header__contenedores {
+
+        opacity: 0.9;
+        padding: 0.5rem;
+
+    }
+
+    .header__contenedores1 {
+        background-color: #EDE5D1;
+        border-radius: 1.5rem;
+        opacity: 0.9;
+        padding: 0.5rem;
+    }
+
+    .header__logo__div {
+        transition: transform 0.3s ease-in-out;
+
+    }
+
+    .header__logo__div:hover {
+        transform: scale(1.1);
+    }
+
+    .header__logo {
+        width: 14rem;
+        position: relative;
+
+    }
+
+    .header__rotarLogo {
+        transform: rotate(60deg);
+    }
+
+    .header__titulo {
+        /* font-family: 'Nunito', sans-serif; */
+        color: #06474a;
+        font-family: 'Alegreya', serif;
+        font-weight: 500;
+    }
+
+    .header__redesSociales {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 1rem;
+    }
+
+    .header__redesSociales__logo {
+        width: 3rem;
+        border-radius: 1rem;
+        padding: 5px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .header__redesSociales__logo:hover {
+        transform: scale(1.2);
+    }
+
+    .header__imagen__principal {
+        gap: 2rem;
+        padding: 2rem 0rem 1rem 0rem;
+    }
+
+    .logoPrincipal {
+        height: 12rem;
+        background-color: #EDE5D1;
+        border-radius: 2rem;
+        border: 1px solid #7b8bff;
+    }
+
+
+    /* MAIN */
+
+    .carousel-container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .carousel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    main {
+        padding-bottom: 8rem;
+        /* background-image: url("https://i.ibb.co/WcLSFg6/a3362e7578ea3ab65694f00ff585a362.jpg"); */
+        background-image: url("./img/fondo12.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    .main__quienesSomos {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+        gap: 2rem;
+        font-family: 'Nunito';
+        font-weight: bold;
+        line-height: 43px;
+    }
+
+    .main__padding__texto{
+        padding: 0rem 8rem 0rem 8rem;
+    }
+
+    .main__quienesSomos__titulo {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__modulo__contenedor {
+        display: flex;
+        justify-content: center;
+        height: 8rem;
+        gap: 5rem;
+    }
+
+    .main__modulos__anchor:visited {
+        color: #09959B;
+    }
+
+    .main__botonera__letra {
+        font-family: 'Nunito';
+        font-weight: bold;
+        padding-top: 0.3rem;
+    }
+
+
+    .main__img__navBar {
+        width: 4rem;
+    }
+
+    .main__modulo1 {
+        border: 2px #09959B solid;
+        border-radius: 5rem;
+        width: 8rem;
+        height: 7rem;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #EDE5D1;
+        transition: transform 0.3s ease-in;
+        color: #09959B;
+
+
+        ;
+    }
+
+    .main__modulos__letras {
+        position: relative;
+        bottom: 10px;
+    }
+
+
+    .main__modulo2 {
+        border: 2px #09959B solid;
+        border-radius: 5rem;
+        width: 8rem;
+        height: 7rem;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #EDE5D1;
+        transition: transform 0.3s ease-in;
+    }
+
+    .main__modulo3 {
+        border: 2px #09959B solid;
+        border-radius: 5rem;
+        width: 9rem;
+        height: 8rem;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #EDE5D1;
+        transition: transform 0.3s ease-in;
+
+    }
+
+    .main__modulo3__rotacion {
+        transform: rotate(20deg);
+
+    }
+
+    .ModuloPrincipalLogo {
+        width: 4rem;
+    }
+
+
+    .main__modulo4 {
+        border: 2px #09959B solid;
+        border-radius: 5rem;
+        width: 8rem;
+        height: 7rem;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #EDE5D1;
+        transition: transform 0.3s ease-in;
+    }
+
+    .espaciado {
+        line-height: 1.4;
+    }
+
+    .main__modulo5 {
+        border: 2px #09959B solid;
+        border-radius: 5rem;
+        width: 8rem;
+        height: 7rem;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #EDE5D1;
+        transition: transform 0.3s ease-in;
+    }
+
+    .main__modulo1:hover {
+        transform: scale(1.1);
+        color: #09959B;
+    }
+
+    .main__modulo2:hover {
+        transform: scale(1.1);
+    }
+
+    .main__modulo3:hover {
+        transform: scale(1.2);
+    }
+
+    .main__modulo4:hover {
+        transform: scale(1.1);
+    }
+
+    .main__modulo5:hover {
+        transform: scale(1.1);
+    }
+
+    .main__modulos__anchor {
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        color: #6b705c;
+        font-weight: 900;
+    }
+
+    .main__descripcion {
+        text-align: justify;
+    }
+
+    .main__imagenSaludable {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__dejarDeFumar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__carrousel__item {
+        width: 15rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__Contenedor__horarios {
+        display: flex;
+        justify-content: center;
+    }
+
+    .border {
+        border: 2px solid black;
+        border-radius: 0.5rem;
+        padding: 0.3rem;
+    }
+
+    .main__horarios {
+        width: 50%;
+    }
+
+    .cocinaSaludable__imagen {
+        height: 70%;
+
+    }
+
+    /* FOOTER */
+
+    .footer__contenedor {
+        background-image: url('https://images.unsplash.com/photo-1604428803896-c1e5151d4128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+        background-size: cover;
+        background-position: center 56%;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        padding-top: 0rem;
+        padding-bottom: 1.5rem;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+
+    .footer__datos{
+        background-color: #EDE5D1;
+        border-radius: 2rem;
+        border: 1px solid #7b8bff;
+        line-height: 9px;
+    }
+
+    .footer__hijo {
+        padding: 10px;
+    }
+    .footer__logo {
+        width: 14rem;
+        position: relative;
+        left: 3rem;
+    }
+
+
+    .footer__redesSociales {
+        display: flex;
+        flex-direction: row;
+        align-content: end;
+        justify-content: flex-end;
+        padding-right: 3rem;
+        padding-top: 8rem;
+        height: 0rem;
+    }
+
+    .footer__redesSociales__logo {
+        width: 3rem;
+        border-radius: 1rem;
+        padding: 5px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .footer__redesSociales__logo:hover {
+        transform: scale(1.2);
+    }
